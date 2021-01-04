@@ -75,3 +75,7 @@ h1 {
 .links a {
 	margin: 5px;
 }
+
+button {
+	background-color: #008080;
+}
