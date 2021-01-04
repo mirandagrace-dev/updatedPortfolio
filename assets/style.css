@@ -1,59 +1,77 @@
 body {
-  background-image: url("backgroundimg.png");
+	background-image: url("backgroundimg.png");
 }
 
 .navbar-brand {
-  background-color: teal;
-  color: white !important;
-  /*font-family: ;*/
+	background-color: teal;
+	color: white !important;
+	/*font-family: ;*/
 }
 
 #navbarNav {
-  width: 200px;
-  float: right;
+	width: 200px;
+	float: right;
 }
 nav-item {
-  float: right;
+	float: right;
 }
 
 section {
-  background-color: white;
-  color: teal;
-  margin-top: 100px;
-  margin-left: 50px;
-  margin-right: 50px;
-  padding: 40px;
+	background-color: white;
+	color: teal;
+	margin-top: 100px;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 40px;
 }
 
 #portfolio {
-  padding: unset !important;
+	padding: unset !important;
 }
 
 p {
-  font-size: 15px;
+	font-size: 15px;
 }
 
 img {
-  width: 200px;
-  float: left;
-  background-color: white;
+	width: 200px;
+	float: left;
+	background-color: white;
 }
 
 footer {
-  color: grey;
-  background-color: rgb(49, 49, 49);
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  border-top: solid teal 10px;
-  overflow: hidden;
+	color: grey;
+	background-color: rgb(49, 49, 49);
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	border-top: solid teal 10px;
+	overflow: hidden;
 }
 
 .portfolio {
-  margin: 15px;
+	margin: 15px;
 }
 
 btn-primary {
-  background-color: teal !important;
+	background-color: teal !important;
+}
+
+row {
+	display: flex;
+	justify-content: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+.links {
+	display: flex;
+	justify-content: center;
+}
+
+.links a {
+	margin: 5px;
 }
