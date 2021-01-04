@@ -1,0 +1,59 @@
+body {
+  background-image: url("backgroundimg.png");
+}
+
+.navbar-brand {
+  background-color: teal;
+  color: white !important;
+  /*font-family: ;*/
+}
+
+#navbarNav {
+  width: 200px;
+  float: right;
+}
+nav-item {
+  float: right;
+}
+
+section {
+  background-color: white;
+  color: teal;
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 40px;
+}
+
+#portfolio {
+  padding: unset !important;
+}
+
+p {
+  font-size: 15px;
+}
+
+img {
+  width: 200px;
+  float: left;
+  background-color: white;
+}
+
+footer {
+  color: grey;
+  background-color: rgb(49, 49, 49);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-top: solid teal 10px;
+  overflow: hidden;
+}
+
+.portfolio {
+  margin: 15px;
+}
+
+btn-primary {
+  background-color: teal !important;
+}
